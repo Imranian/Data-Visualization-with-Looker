@@ -51,3 +51,7 @@ Look #3: States and Cities with Highest Percentage of Cancellations: Flights ove
 - The Percentage of Flights Cancelled column must be created by a table calculation
 - A Flights Count filter set for > 20,000 Flights
 - The Percentage of Flights Cancelled column should be in descending order (most to least)
+Result:
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
+</p>
