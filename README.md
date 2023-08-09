@@ -32,7 +32,11 @@ Note: You will need to use a Pivot.
 - Facility Types Filter Should contain = **Airport**, **Balloonport**, **Gliderport**, **Heliport**, **Seaplane Base**, **Stolport** and **Ultralight**
 
 Result:
-
+Table containing data
 <p align="center">
-    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Top%205%20cities%20with%20most%20heliports.png">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
+</p>
+Visualization
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
 </p>
