@@ -17,7 +17,7 @@ Look #1: Top 5 Cities With Most Heliports.
 - The Airports Count column should be in descending order (most to least)
 - Filter for the Facility Type = **Heliports**
 
-Result:
+#### Result:
 
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Top%205%20cities%20with%20most%20heliports.png">
@@ -31,14 +31,14 @@ Look #2: Facility Type Breakdown for Top 5 States.
 Note: You will need to use a Pivot.
 - Facility Types Filter Should contain = **Airport**, **Balloonport**, **Gliderport**, **Heliport**, **Seaplane Base**, **Stolport** and **Ultralight**
 
-Result:
+#### Result:
 
-Table containing data
+#### Table containing data
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
 </p>
 
-Visualization
+#### Visualization
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Facility%20Type%20Breakdown%20for%20Top%205%20States.png">
 </p>
@@ -52,7 +52,7 @@ Look #3: States and Cities with Highest Percentage of Cancellations: Flights ove
 - A Flights Count filter set for > 20,000 Flights
 - The Percentage of Flights Cancelled column should be in descending order (most to least)
 
-Result:
+#### Result:
 
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/percentage%20of%20flights%20cancelled.png">
@@ -66,14 +66,29 @@ Look #4: Top 5 Airports With Smallest Average Distance.
 - The custom measure should be named: Average Distance (Miles)
 - An Average Distance (Miles) filter set for greater than 0.
 - The Average Distance (Miles) column should be in ascending order (least to most)
-- Limit the results (rows) to 5
+- Limit the results (rows) to **5**
 
-Result:
+#### Result:
 
-Table containing data
+#### Table containing data
 <p align="center">
-    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/percentage%20of%20flights%20cancelled.png">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/4.%20Smallest%20avg%20dist/Avg%20dist%20miles.png">
 </p>
 
-Visualization
+#### Visualization
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/4.%20Smallest%20avg%20dist/Top%205%20airports%20with%20smallest%20avg%20distance.png">
+</p>
 
+### Task 5: Where are the busiest, joint-use major airports that have control towers and what are their associated codes?
+Look #5: Busiest, Major Joint-Use Airports with Control Towers
+- A bar chart that includes the **City**, **State**, and **Code**, with the corresponding number of flights
+- Your Primary query must be from the **Flights** dataset, and include the **Aircraft Origin City**, **Aircraft Origin State**, **Aircraft Origin Code**, and **Flights Count**
+- The following Airports source query you will merge into must be from the **Airports dataset**, and include the **State**, **City**, and **Code**. Additionally in the Airports source query, you must use three filters on **Control Tower**, **Is Major**, and **Joint Use**. All of these should be true (yes)
+- Limit the results (rows) to the top **5** cities
+
+#### Result:
+
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/5.%20Merge/Busiest%2C%20Major%20Joint-Use%20Airports%20with%20Control%20Towers.png">
+</p>
