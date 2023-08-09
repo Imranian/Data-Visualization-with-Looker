@@ -17,3 +17,10 @@ Look #1: Top 5 Cities With Most Heliports.
 - The Airports Count column should be in descending order (most to least)
 - Filter for the Facility Type = **Heliports**
 
+Result:
+
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Top%205%20cities%20with%20most%20heliports.png">
+</p>
+
+
