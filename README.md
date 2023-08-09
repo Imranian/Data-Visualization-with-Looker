@@ -51,7 +51,13 @@ Look #3: States and Cities with Highest Percentage of Cancellations: Flights ove
 - The Percentage of Flights Cancelled column must be created by a table calculation
 - A Flights Count filter set for > 20,000 Flights
 - The Percentage of Flights Cancelled column should be in descending order (most to least)
+
 Result:
+
 <p align="center">
-    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/percentage%20of%20flights%20cancelled.png">
 </p>
+
+### Task 4: What are the origin and destination airports with the smallest average distance between them?
+Look #4: Top 5 Airports With Smallest Average Distance.
+<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/New%20percentage%20of%20flights%20cancelled%20table%20.png"/>
