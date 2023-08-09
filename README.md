@@ -10,7 +10,7 @@ This is a personal project for learning purpose. In this project, Looker softwar
 - Where are the busiest, joint-use major airports that have control towers and what are their associated codes?
 - What are the origin and destination airports with the smallest average distance between them?
 ## Implementation
-### Task 1:
+### Task 1: Which states and cities have the most airports with heliports?
 Look #1: Top 5 Cities With Most Heliports.
 - A table with three columns: **City**, **State**, and **Airports Count**
 - Limit the results (rows) to the top **5** states
@@ -23,4 +23,16 @@ Result:
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Top%205%20cities%20with%20most%20heliports.png">
 </p>
 
+### Task 2: What is the facility type breakdown for the states with the most airports?
+Look #2: Facility Type Breakdown for Top 5 States.
+- A table visualization with the **Airports Count**, **State**, and the corresponding **Facility Types**
+- Limit the results (rows) to the top **5** states
+- The Airports facility type column should be in descending order (most to least)
+Note: You will need to use a Pivot.
+- Facility Types Filter Should contain = **Airport**, **Balloonport**, **Gliderport**, **Heliport**, **Seaplane Base**, **Stolport** and **Ultralight**
 
+Result:
+
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Top%205%20cities%20with%20most%20heliports.png">
+</p>
