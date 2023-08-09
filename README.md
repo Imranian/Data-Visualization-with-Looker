@@ -45,10 +45,9 @@ Visualization
 
 ### Task 3: What are the airports and states with the highest percentage of flight cancellations with over 20,000 flights?
 Look #3: States and Cities with Highest Percentage of Cancellations: Flights over 20,000.
+<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/New%20percentage%20of%20flights%20cancelled%20table%20.png"/>
+
 - A table with three columns: **Aircraft Origin City**, **Aircraft Origin State**, and **Percentage of Flights Cancelled**
 - The Percentage of Flights Cancelled column must be created by a table calculation
-<p align="center">
-    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Facility%20Type%20Breakdown%20for%20Top%205%20States.png">
-</p>
 - A Flights Count filter set for > 20,000 Flights
 - The Percentage of Flights Cancelled column should be in descending order (most to least)
