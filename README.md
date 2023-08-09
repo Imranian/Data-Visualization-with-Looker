@@ -60,4 +60,20 @@ Result:
 
 ### Task 4: What are the origin and destination airports with the smallest average distance between them?
 Look #4: Top 5 Airports With Smallest Average Distance.
-<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/4.%20Smallest%20avg%20dist/Average%20dist%20miles%20table.png"/>
+<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/4.%20Smallest%20avg%20dist/Small%20Average%20dist%20miles%20table.png"/>
+- A table with two columns: **Origin and Destination**, and **Average Distance (Miles)**
+- The Average Distance (Miles) column must be created via a **custom measure** that calculates the average distance of flights
+- The custom measure should be named: Average Distance (Miles)
+- An Average Distance (Miles) filter set for greater than 0.
+- The Average Distance (Miles) column should be in ascending order (least to most)
+- Limit the results (rows) to 5
+
+Result:
+
+Table containing data
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/percentage%20of%20flights%20cancelled.png">
+</p>
+
+Visualization
+
