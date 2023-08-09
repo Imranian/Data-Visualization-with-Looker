@@ -60,4 +60,4 @@ Result:
 
 ### Task 4: What are the origin and destination airports with the smallest average distance between them?
 Look #4: Top 5 Airports With Smallest Average Distance.
-<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/3.%20Percentage%20Cancelled/New%20percentage%20of%20flights%20cancelled%20table%20.png"/>
+<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/4.%20Smallest%20avg%20dist/Average%20dist%20miles%20table.png"/>
