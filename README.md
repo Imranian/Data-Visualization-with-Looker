@@ -6,7 +6,7 @@ This is a personal project for learning purpose. In this project, Looker softwar
 ### Challenge scenario
 - Which states and cities have the most airports with heliports?
 - What is the facility type breakdown for the states with the most airports?
-- What are the airports and states with the highest percentage of flight cancellations with over 10,000 flights?
+- What are the airports and states with the highest percentage of flight cancellations with over 20,000 flights?
 - Where are the busiest, joint-use major airports that have control towers and what are their associated codes?
 - What are the origin and destination airports with the smallest average distance between them?
 ## Implementation
@@ -32,11 +32,23 @@ Note: You will need to use a Pivot.
 - Facility Types Filter Should contain = **Airport**, **Balloonport**, **Gliderport**, **Heliport**, **Seaplane Base**, **Stolport** and **Ultralight**
 
 Result:
+
 Table containing data
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
 </p>
+
 Visualization
 <p align="center">
-    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Top%205%20Facility%20type.png">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Facility%20Type%20Breakdown%20for%20Top%205%20States.png">
 </p>
+
+### Task 3: What are the airports and states with the highest percentage of flight cancellations with over 20,000 flights?
+Look #3: States and Cities with Highest Percentage of Cancellations: Flights over 20,000.
+- A table with three columns: **Aircraft Origin City**, **Aircraft Origin State**, and **Percentage of Flights Cancelled**
+- The Percentage of Flights Cancelled column must be created by a table calculation
+<p align="center">
+    <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/2.%20Facility%20type/Facility%20Type%20Breakdown%20for%20Top%205%20States.png">
+</p>
+- A Flights Count filter set for > 20,000 Flights
+- The Percentage of Flights Cancelled column should be in descending order (most to least)
