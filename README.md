@@ -1,3 +1,5 @@
+<img align="right" src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/Looker_logo_high_res%20(1).png"/>
+
 # Data Visualization Project
 
 Data Visualization using **Looker** Software.
