@@ -53,7 +53,7 @@ Look #3: States and Cities with Highest Percentage of Cancellations: Flights ove
 - A table with three columns: **Aircraft Origin City**, **Aircraft Origin State**, and **Percentage of Flights Cancelled**
 - The Percentage of Flights Cancelled column must be created by a table calculation
 - A Flights Count filter set for > 20,000 Flights
-- The Percentage of Flights Cancelled column should be in descending order (most to least)
+- The Flights Count column should be in descending order (most to least)
 
 #### Result:
 
@@ -95,3 +95,5 @@ Look #5: Busiest, Major Joint-Use Airports with Control Towers
 <p align="center">
     <img src="https://github.com/Imranian/Data-Visualization-with-Looker/blob/main/5.%20Merge/Busiest%2C%20Major%20Joint-Use%20Airports%20with%20Control%20Towers.png">
 </p>
+
+## Link to my badge - [Mohammad Imran](https://www.cloudskillsboost.google/public_profiles/8123fb0d-fe65-48d3-a525-1c72976155c7)
